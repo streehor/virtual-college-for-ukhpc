@@ -27,6 +27,21 @@ A virtual tour of the Ust-Kamenogorsk Higher Polytechnic College (UKHPC) develop
 - **Scripting:** GDScript
 - **Data Structure:** CSV for localization, imported 3D models (GLTF/OBJ) and textures (WebP/PNG).
 
+## Demonstration
+
+<details>
+  <summary>Main Menu</summary>
+  <img width="791" height="441" alt="main_screen" src="https://github.com/user-attachments/assets/84289385-40f8-472d-b777-b01e87375d39" />
+</details>
+<details>
+  <summary>UI</summary>
+  <img width="791" height="441" alt="ui" src="https://github.com/user-attachments/assets/027947d4-5169-49b1-96aa-fb14e7269b76" />
+</details>
+<details>
+  <summary>Example Room</summary>
+  <img width="791" height="441" alt="random_frame" src="https://github.com/user-attachments/assets/8434adad-cca4-4a19-aed4-295354798ddd" />
+</details>
+
 ## Repository Structure
 
 - `models/` — source 3D models of locations and objects.

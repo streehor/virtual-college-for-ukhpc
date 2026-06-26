@@ -1,0 +1,16 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dvhu3ljy4gc6g"]
+
+[ext_resource type="Texture2D" uid="uid://begftg7uc8hmx" path="res://textures/3d/Poliigon_TilesCeramicWhite_6956/Poliigon_TilesCeramicWhite_6956_BaseColor.jpg" id="1_1pllf"]
+[ext_resource type="Texture2D" uid="uid://dmrpd8grtlprq" path="res://textures/3d/Poliigon_TilesCeramicWhite_6956/Poliigon_TilesCeramicWhite_6956_Normal.png" id="2_f6jge"]
+[ext_resource type="Texture2D" uid="uid://dsyi7qngk53rt" path="res://textures/3d/classic_wood_parquet_1-4K/4K-Classic Parquet_1_roughness.jpg" id="3_s2jnh"]
+
+[resource]
+albedo_color = Color(1, 1, 0.9098039, 1)
+albedo_texture = ExtResource("1_1pllf")
+roughness = 0.0
+roughness_texture = ExtResource("3_s2jnh")
+normal_enabled = true
+normal_scale = 2.08
+normal_texture = ExtResource("2_f6jge")
+uv1_scale = Vector3(-0.189, -0.189, -0.189)
+uv1_triplanar = true

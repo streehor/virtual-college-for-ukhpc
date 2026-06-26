@@ -1,0 +1,11 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://w5r7sbugs10n"]
+
+[ext_resource type="Texture2D" uid="uid://w36nocukn4y2" path="res://textures/3d/Plaster001_4K-JPG/Plaster001_4K-JPG_Color.jpg" id="1_e3ef0"]
+[ext_resource type="Texture2D" uid="uid://dhfs8q1a6owtj" path="res://textures/3d/Plaster001_4K-JPG/Plaster001_4K-JPG_NormalDX.jpg" id="2_vdi16"]
+
+[resource]
+albedo_color = Color(0.9032646, 0.7809479, 0.67422795, 1)
+albedo_texture = ExtResource("1_e3ef0")
+normal_enabled = true
+normal_texture = ExtResource("2_vdi16")
+uv1_triplanar = true

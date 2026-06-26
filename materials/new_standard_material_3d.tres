@@ -1,0 +1,17 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://02jf2qe7w6b3"]
+
+[ext_resource type="Texture2D" uid="uid://bdrlpucy64srt" path="res://models/l_table/textures/Rough_Dark-Blue_Texture_baseColor.jpeg" id="1_isyce"]
+[ext_resource type="Texture2D" uid="uid://bdxfs77vuexo5" path="res://models/l_table/textures/Rough_Dark-Blue_Texture_metallicRoughness.png" id="2_346bd"]
+[ext_resource type="Texture2D" uid="uid://dg73qf1x17kq6" path="res://models/l_table/textures/Rough_Dark-Blue_Texture_normal.png" id="3_mpp88"]
+
+[resource]
+resource_name = "Rough_Dark-Blue_Texture"
+cull_mode = 2
+albedo_color = Color(0.59, 0.45371002, 0.3422, 1)
+albedo_texture = ExtResource("1_isyce")
+metallic_texture = ExtResource("2_346bd")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_346bd")
+roughness_texture_channel = 1
+normal_enabled = true
+normal_texture = ExtResource("3_mpp88")

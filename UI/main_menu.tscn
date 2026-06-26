@@ -1,0 +1,114 @@
+[gd_scene format=3 uid="uid://cfaiv1x3dbu0m"]
+
+[ext_resource type="Script" uid="uid://tcqt5ir253p0" path="res://UI/main_menu.gd" id="1_p8ccj"]
+[ext_resource type="Texture2D" uid="uid://1twa0kcgarhf" path="res://textures/debug/bg.webp" id="2_4cwpn"]
+[ext_resource type="Texture2D" uid="uid://df0414gc1om1u" path="res://textures/debug/logo.png" id="2_d8nwk"]
+[ext_resource type="Texture2D" uid="uid://cd8kkd4s6uhv" path="res://textures/debug/lang_icon.webp" id="2_tk8dj"]
+[ext_resource type="Texture2D" uid="uid://cs1pgn7qwbxwg" path="res://textures/debug/fullscreen.webp" id="5_f40uw"]
+
+[node name="main_menu" type="Node2D" unique_id=278156128]
+script = ExtResource("1_p8ccj")
+
+[node name="bg" type="Sprite2D" parent="." unique_id=15363511]
+self_modulate = Color(0.83975405, 0.83975405, 0.839754, 1)
+position = Vector2(1192, 752)
+texture = ExtResource("2_4cwpn")
+
+[node name="menu" type="Node2D" parent="." unique_id=1591534053]
+
+[node name="start" type="Button" parent="menu" unique_id=32438636]
+offset_left = 660.0
+offset_top = 464.0
+offset_right = 1260.0
+offset_bottom = 632.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_font_sizes/font_size = 45
+text = "UI_START"
+
+[node name="tutor" type="Button" parent="menu" unique_id=1115224103]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 660.0
+offset_top = 664.0
+offset_right = 1260.0
+offset_bottom = 832.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 45
+text = "UI_TUTOR"
+
+[node name="quit" type="Button" parent="menu" unique_id=1879144836]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 660.0
+offset_top = 854.0
+offset_right = 1260.0
+offset_bottom = 1022.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 45
+text = "UI_EXIT"
+
+[node name="logo" type="Sprite2D" parent="menu" unique_id=954802588]
+position = Vector2(976, 240.00002)
+scale = Vector2(0.26641586, 0.26641586)
+texture = ExtResource("2_d8nwk")
+
+[node name="tutorial" type="Node2D" parent="." unique_id=25599299]
+visible = false
+
+[node name="Panel" type="Panel" parent="tutorial" unique_id=1834475299]
+offset_right = 1920.0
+offset_bottom = 1080.0
+
+[node name="RichTextLabel" type="RichTextLabel" parent="tutorial" unique_id=617885524]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 16.0
+offset_top = 192.0
+offset_right = 1920.0
+offset_bottom = 1036.0
+grow_horizontal = 2
+grow_vertical = 2
+bbcode_enabled = true
+
+[node name="back" type="Button" parent="tutorial" unique_id=368658253]
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 384.0
+offset_bottom = 128.0
+theme_override_font_sizes/font_size = 45
+text = "UI_BACK"
+
+[node name="lang" type="Button" parent="." unique_id=864471950]
+offset_left = 1780.0
+offset_top = 24.0
+offset_right = 1913.0
+offset_bottom = 157.0
+icon = ExtResource("2_tk8dj")
+expand_icon = true
+
+[node name="fullscreen" type="Button" parent="." unique_id=665238237]
+offset_left = 1634.0
+offset_top = 24.0
+offset_right = 1767.0
+offset_bottom = 157.0
+icon = ExtResource("5_f40uw")
+expand_icon = true
+
+[connection signal="pressed" from="menu/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="menu/tutor" to="." method="_on_tutor_pressed"]
+[connection signal="pressed" from="menu/quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="tutorial/back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="lang" to="." method="_on_lang_pressed"]
+[connection signal="pressed" from="fullscreen" to="." method="_on_fullscreen_pressed"]

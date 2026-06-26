@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://d0howlqhdi3kc"]
+
+[ext_resource type="Script" uid="uid://j51nk8hlmrss" path="res://scenes/entities/scene_fader.gd" id="1_l4f7n"]
+
+[node name="SceneFader" type="Node" unique_id=576878138]
+script = ExtResource("1_l4f7n")

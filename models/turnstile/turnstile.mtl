@@ -1,0 +1,35 @@
+# Blender MTL File: 'turnstile.blend'
+# Material Count: 3
+
+newmtl Material.001
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+
+newmtl Material.002
+Ns 225.000000
+Ka 0.676000 0.676000 0.676000
+Kd 0.800000 0.800000 0.800000
+Ks 0.260000 0.260000 0.260000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\Metal09_col.jpg
+
+newmtl Material.006
+Ns 225.000000
+Ka 0.368000 0.368000 0.368000
+Kd 0.800000 0.800000 0.800000
+Ks 0.048000 0.048000 0.048000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\Metal03_col.jpg
+map_Ns textures\\Metal03_rgh.jpg

@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cru1uplvu4vax"]
+
+[ext_resource type="Texture2D" uid="uid://bs0deflp1sfih" path="res://textures/class_names/u307.webp" id="1_mcs0g"]
+[ext_resource type="Script" uid="uid://b7l0feb672xve" path="res://scenes/objects/class_name.gd" id="2_j4s8v"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0wlbj"]
+albedo_texture = ExtResource("1_mcs0g")
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_dm6sj"]
+material = SubResource("StandardMaterial3D_0wlbj")
+size = Vector2(0.405, 0.205)
+
+[node name="MeshInstance3D10" type="MeshInstance3D" unique_id=1739350221]
+transform = Transform3D(1, 0, 4.371139e-08, 4.371139e-08, 1.9106855e-15, -1, 0, 1, 1.9106855e-15, 0, 0, 0)
+mesh = SubResource("PlaneMesh_dm6sj")
+script = ExtResource("2_j4s8v")

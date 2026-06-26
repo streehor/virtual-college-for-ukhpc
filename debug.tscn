@@ -1,0 +1,101 @@
+[gd_scene format=3 uid="uid://de2g2brr36rxk"]
+
+[ext_resource type="Script" uid="uid://dry2ysolqd4n6" path="res://debug.gd" id="1_lvjdj"]
+[ext_resource type="PackedScene" uid="uid://cal7nj3kuttml" path="res://UI/info_panel.tscn" id="2_jwave"]
+[ext_resource type="PackedScene" uid="uid://caolb0ilob3yc" path="res://scenes/objects/arrow_pointer.tscn" id="3_rdi1l"]
+[ext_resource type="Texture2D" uid="uid://c8mbbh3lpawvr" path="res://icon.svg" id="3_soqm1"]
+[ext_resource type="PackedScene" uid="uid://dgyh7q7gmtckb" path="res://scenes/entities/CameraController.tscn" id="4_obyai"]
+[ext_resource type="PackedScene" uid="uid://dagi35mc151d6" path="res://scenes/entities/PanoramaController.tscn" id="5_e0a3d"]
+[ext_resource type="PackedScene" uid="uid://cyd1v1dfgmgjn" path="res://scenes/entities/UIController.tscn" id="6_jwave"]
+[ext_resource type="PackedScene" uid="uid://itkp48spjkkq" path="res://scenes/objects/interactable_zone_scene.tscn" id="7_e0a3d"]
+[ext_resource type="PackedScene" uid="uid://c8eb0bk8wliee" path="res://scenes/entities/interactive_objects_manager.tscn" id="9_pk40j"]
+[ext_resource type="PackedScene" uid="uid://b0tfxvpuqdkjw" path="res://UI/menu.tscn" id="10_6xqm2"]
+[ext_resource type="PackedScene" uid="uid://d0howlqhdi3kc" path="res://scenes/entities/scene_fader.tscn" id="10_soqm1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1uwqr"]
+shading_mode = 0
+albedo_texture = ExtResource("3_soqm1")
+
+[sub_resource type="SphereMesh" id="SphereMesh_lvjdj"]
+lightmap_size_hint = Vector2i(17, 9)
+material = SubResource("StandardMaterial3D_1uwqr")
+flip_faces = true
+
+[node name="debug" type="Node3D" unique_id=1854981097]
+script = ExtResource("1_lvjdj")
+
+[node name="InfoPanel" parent="." unique_id=1378489245 instance=ExtResource("2_jwave")]
+
+[node name="sphere" type="MeshInstance3D" parent="." unique_id=154023143]
+mesh = SubResource("SphereMesh_lvjdj")
+metadata/_edit_lock_ = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=127963469]
+
+[node name="SpotLight3D" type="SpotLight3D" parent="." unique_id=1494730807]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, -0.01, 1.115, -0.009)
+light_energy = 1.206
+spot_range = 3.2519605
+spot_angle = 34.864285
+metadata/_edit_lock_ = true
+
+[node name="Label" type="Label" parent="." unique_id=1709179418]
+visible = false
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Camera" type="Camera3D" parent="." unique_id=1701384285]
+metadata/_edit_lock_ = true
+
+[node name="CameraController" parent="." unique_id=235250203 node_paths=PackedStringArray("camera") instance=ExtResource("4_obyai")]
+camera = NodePath("../Camera")
+
+[node name="PanoramaController" parent="." unique_id=824156404 instance=ExtResource("5_e0a3d")]
+sphere_path = NodePath("../sphere")
+camera_path = NodePath("../Camera")
+objects_manager = NodePath("../interactive_objects_manager")
+
+[node name="ArrowBackLeft" parent="PanoramaController" unique_id=1254770636 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(-2.347079, 0, 3.1146784, 0, 3.9, 0, -3.1146784, 0, -2.347079, -0.101, -0.21318409, 0.101)
+direction = "back_left"
+
+[node name="ArrowBack" parent="PanoramaController" unique_id=1519528132 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(-3.9, 0, -5.8888367e-07, 0, 3.9, 0, 5.8888367e-07, 0, -3.9, 0, -0.21318409, 0.101)
+direction = "back"
+
+[node name="ArrowBackRight" parent="PanoramaController" unique_id=1836024058 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(-2.347079, 0, -3.1146784, 0, 3.9, 0, 3.1146784, 0, -2.347079, 0.101, -0.21318409, 0.101)
+direction = "back_right"
+
+[node name="ArrowForwardLeft" parent="PanoramaController" unique_id=2065192308 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(2.7577164, 0, 2.7577164, 0, 3.9, 0, -2.7577164, 0, 2.7577164, -0.101, -0.21318409, -0.101)
+direction = "forward_left"
+
+[node name="ArrowForward" parent="PanoramaController" unique_id=698747376 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(3.9, 0, 0, 0, 3.9, 0, 0, 0, 3.9, 0, -0.21318409, -0.101)
+direction = "forward"
+
+[node name="ArrowForwardRight" parent="PanoramaController" unique_id=101055337 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(2.7577164, 0, -2.7577164, 0, 3.9, 0, 2.7577164, 0, 2.7577164, 0.101, -0.21318409, -0.101)
+direction = "forward_right"
+
+[node name="ArrowLeft" parent="PanoramaController" unique_id=19128309 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(-1.7047442e-07, 0, 3.9, 0, 3.9, 0, -3.9, 0, -1.7047442e-07, -0.10109416, -0.21340173, 0)
+direction = "left"
+
+[node name="ArrowRight" parent="PanoramaController" unique_id=125559831 instance=ExtResource("3_rdi1l")]
+transform = Transform3D(-1.7047442e-07, 0, -3.9, 0, 3.9, 0, 3.9, 0, -1.7047442e-07, 0.101, -0.21318409, 0)
+direction = "right"
+
+[node name="UiController" parent="." unique_id=1028235769 instance=ExtResource("6_jwave")]
+label_path = NodePath("../Label")
+
+[node name="interactive_objects_manager" parent="." unique_id=1761552100 instance=ExtResource("9_pk40j")]
+interactable_zone_scene = ExtResource("7_e0a3d")
+
+[node name="menu" parent="." unique_id=1817998258 instance=ExtResource("10_6xqm2")]
+
+[node name="interactable_zone_scene" parent="." unique_id=1182472609 instance=ExtResource("7_e0a3d")]
+transform = Transform3D(0.36, 0, 0, 0, 0.36, 0, 0, 0, 0.36, 0.029317915, -5.9604645e-08, -0.79367906)
+
+[node name="SceneFader" parent="." unique_id=576878138 instance=ExtResource("10_soqm1")]

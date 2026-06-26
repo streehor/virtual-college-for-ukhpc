@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://itkp48spjkkq"]
+
+[ext_resource type="Script" uid="uid://4d6iuy8evae" path="res://scenes/objects/interactable_zone_scene.gd" id="1_aoxgw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_as54a"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_aoxgw"]
+transparency = 1
+blend_mode = 1
+shading_mode = 0
+albedo_color = Color(1, 0, 0.38431373, 0.26666668)
+
+[sub_resource type="BoxMesh" id="BoxMesh_as54a"]
+material = SubResource("StandardMaterial3D_aoxgw")
+
+[node name="interactable_zone_scene" type="Node3D" unique_id=1182472609]
+script = ExtResource("1_aoxgw")
+
+[node name="Area3D" type="Area3D" parent="." unique_id=428946456]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=345471165]
+shape = SubResource("BoxShape3D_as54a")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Area3D" unique_id=1109931331]
+mesh = SubResource("BoxMesh_as54a")
+
+[connection signal="input_event" from="Area3D" to="." method="_on_area_3d_input_event"]
+[connection signal="mouse_entered" from="Area3D" to="." method="_on_area_3d_mouse_entered"]
+[connection signal="mouse_exited" from="Area3D" to="." method="_on_area_3d_mouse_exited"]

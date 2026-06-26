@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://b7pfetx54l78s"]
+
+[ext_resource type="PackedScene" uid="uid://0igoc62tw7h2" path="res://UI/models/arrow.fbx" id="1_sjvn6"]
+
+[node name="arrow" unique_id=1853203224 instance=ExtResource("1_sjvn6")]

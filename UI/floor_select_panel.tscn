@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://b20xrwfqkhrvb"]
+
+[ext_resource type="Script" uid="uid://dhq5dc6w3kpy7" path="res://UI/floor_select_panel.gd" id="1_kny8u"]
+
+[node name="floor_select_panel" type="Control" unique_id=1067144890]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_kny8u")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1786968555]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="." unique_id=668443790]
+layout_mode = 0
+offset_left = -672.0
+offset_top = 8.0
+offset_right = -136.0
+offset_bottom = 144.0

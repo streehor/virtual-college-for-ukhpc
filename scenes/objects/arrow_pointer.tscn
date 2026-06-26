@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://caolb0ilob3yc"]
+
+[ext_resource type="Script" uid="uid://drhqxfsqnd4w1" path="res://scenes/objects/arrow_pointer.gd" id="2_o66qf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ekha2"]
+shading_mode = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_ekha2"]
+material = SubResource("StandardMaterial3D_ekha2")
+size = Vector3(0.008, 0.004, 0.022)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_o66qf"]
+size = Vector3(0.0211792, 0.01171875, 0.037109375)
+
+[node name="ArrowPointer" type="Node3D" unique_id=1254770636]
+script = ExtResource("2_o66qf")
+
+[node name="arrow" type="MeshInstance3D" parent="." unique_id=611075049]
+transform = Transform3D(0.7071067, 0, 0.7071068, 0, 1, 0, -0.7071068, 0, 0.7071067, 0.005311192, 0, -0.008)
+mesh = SubResource("BoxMesh_ekha2")
+
+[node name="Area3D" type="Area3D" parent="arrow" unique_id=1321497350]
+transform = Transform3D(0.7071068, 0, 0.7071068, 0, 1, 0, -0.7071068, 0, 0.7071068, 0.0089479955, 0, 0.0023636136)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="arrow/Area3D" unique_id=1095679013]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -0.007227257, 0, -0.013465909)
+shape = SubResource("BoxShape3D_o66qf")
+
+[node name="arrow2" type="MeshInstance3D" parent="." unique_id=1614229294]
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, -0.0047653806, 0, -0.007998515)
+mesh = SubResource("BoxMesh_ekha2")

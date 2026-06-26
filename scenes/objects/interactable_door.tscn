@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://0y1kunl652uc"]
+
+[ext_resource type="Script" uid="uid://doym0i3ciwv5d" path="res://scenes/objects/interactable_door.gd" id="1_m1cnq"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_uh858"]
+albedo_color = Color(0.40346682, 0.2204678, 0.06846185, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_68s26"]
+material = SubResource("StandardMaterial3D_uh858")
+size = Vector3(1, 2.21, 0.085)
+
+[sub_resource type="GDScript" id="GDScript_m1cnq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_68s26"]
+size = Vector3(1, 2.211914, 0.10913086)
+
+[node name="interactable_door" type="MeshInstance3D" unique_id=1166079999 groups=["door"]]
+layers = 2
+mesh = SubResource("BoxMesh_68s26")
+script = ExtResource("1_m1cnq")
+
+[node name="door_collider" type="StaticBody3D" parent="." unique_id=1616926815]
+collision_layer = 2
+collision_mask = 2
+script = SubResource("GDScript_m1cnq")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="door_collider" unique_id=1395603132]
+shape = SubResource("BoxShape3D_68s26")

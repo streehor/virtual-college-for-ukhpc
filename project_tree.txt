@@ -1,0 +1,1127 @@
+Структура папок тома Windows
+Серийный номер тома: D8E3-7998
+C:.
+|   debug.gd
+|   debug.gd.uid
+|   debug.tscn
+|   debug.tscn5919379890.tmp
+|   debug.tscn5925339519.tmp
+|   debug.tscn6351511068.tmp
+|   debug_3d.tscn
+|   door1.webp
+|   door1.webp.import
+|   export_presets.cfg
+|   icon.svg
+|   icon.svg.import
+|   project.godot
+|   project_tree.txt
+|   translations.csv
+|   translations.csv.import
+|   translations.kk.translation
+|   translations.ru.translation
+|   
+               
++---addons
+|   \---minimize_html_build
+|       |   export_plugin.gd
+|       |   export_plugin.gd.uid
+|       |   LICENSE
+|       |   plugin.cfg
+|       |   plugin.gd
+|       |   plugin.gd.uid
+|       |   README.md
+|       |   
+|       +---classes
+|       |       mhep_comporesser.gd
+|       |       mhep_comporesser.gd.uid
+|       |       mhep_copier.gd
+|       |       mhep_copier.gd.uid
+|       |       mhep_export_info.gd
+|       |       mhep_export_info.gd.uid
+|       |       mhep_html.gd
+|       |       mhep_html.gd.uid
+|       |       mhep_js.gd
+|       |       mhep_js.gd.uid
+|       |       mhep_utils.gd
+|       |       mhep_utils.gd.uid
+|       |       
+|       \---vendor
+|           |   pako_inflate.min.js
+|           |   
+|           \---bin
+|               +---compress
+|               |   |   compress
+|               |   |   compress.exe
+|               |   |   
+|               |   \---src
+|               |           compress.go
+|               |           go.mod
+|               |           go.sum
+|               |           
+|               \---minify
+|                       LICENSE
+|                       minify
+|                       minify.exe
+|                       README.md
+|                       
++---globals
+|       available_panoramas.gd
+|       available_panoramas.gd.uid
+|       chunk_manager.gd
+|       chunk_manager.gd.uid
+|       floor_manager.gd
+|       floor_manager.gd.uid
+|       interactable_objects.gd
+|       interactable_objects.gd.uid
+|       signalbus.gd
+|       signalbus.gd.uid
+|       
++---materials
+|       baseboard.tres
+|       baseboard2.tres
+|       baseboard3.tres
+|       ceilling1.tres
+|       floor1.tres
+|       floor2.tres
+|       metallic1.tres
+|       new_standard_material_3d.tres
+|       wall0.tres
+|       wall1.tres
+|       wall2.tres
+|       wall3.tres
+|       
++---models
+|   |   baseboard.mtl
+|   |   baseboard.obj
+|   |   baseboard.obj.import
+|   |   desk.blend
+|   |   desk.blend.import
+|   |   fence.obj
+|   |   fence.obj.import
+|   |   IMG_6101.jpeg
+|   |   IMG_6101.jpeg.import
+|   |   Material.001.tres
+|   |   Material.013.tres
+|   |   Material.183.tres
+|   |   window1.mtl
+|   |   window1.obj
+|   |   window1.obj.import
+|   |   
+|   +---bench
+|   |   |   scene.bin
+|   |   |   scene.gltf
+|   |   |   scene.gltf.import
+|   |   |   
+|   |   \---textures
+|   |           Stainless_Steel_diffuse.jpeg
+|   |           Stainless_Steel_diffuse.jpeg.import
+|   |           Stainless_Steel_normal.jpeg
+|   |           Stainless_Steel_normal.jpeg.import
+|   |           Stainless_Steel_specularGlossiness.png
+|   |           Stainless_Steel_specularGlossiness.png.import
+|   |           Wood_diffuse.jpeg
+|   |           Wood_diffuse.jpeg.import
+|   |           Wood_normal.jpeg
+|   |           Wood_normal.jpeg.import
+|   |           Wood_specularGlossiness.png
+|   |           Wood_specularGlossiness.png.import
+|   |           
+|   +---couch
+|   |   |   scene.bin
+|   |   |   scene.gltf
+|   |   |   scene.gltf.import
+|   |   |   
+|   |   \---textures
+|   |           Fabric_baseColor.png
+|   |           Fabric_baseColor.png.import
+|   |           Fabric_metallicRoughness.png
+|   |           Fabric_metallicRoughness.png.import
+|   |           Fabric_normal.png
+|   |           Fabric_normal.png.import
+|   |           Metal_baseColor.png
+|   |           Metal_baseColor.png.import
+|   |           Metal_metallicRoughness.png
+|   |           Metal_metallicRoughness.png.import
+|   |           Metal_normal.png
+|   |           Metal_normal.png.import
+|   |           Wood_baseColor.png
+|   |           Wood_baseColor.png.import
+|   |           Wood_metallicRoughness.png
+|   |           Wood_metallicRoughness.png.import
+|   |           Wood_normal.png
+|   |           Wood_normal.png.import
+|   |           
+|   +---eopk
+|   |       eopk.glb
+|   |       eopk.glb.import
+|   |       eopk_texture_diffuse.png
+|   |       eopk_texture_diffuse.png.import
+|   |       eopk_texture_metallic-texture_roughness.png
+|   |       eopk_texture_metallic-texture_roughness.png.import
+|   |       eopk_texture_normal.png
+|   |       eopk_texture_normal.png.import
+|   |       
+|   +---eovu
+|   |       eovu.glb
+|   |       eovu.glb.import
+|   |       eovu_texture_diffuse.png
+|   |       eovu_texture_diffuse.png.import
+|   |       eovu_texture_metallic-texture_roughness.png
+|   |       eovu_texture_metallic-texture_roughness.png.import
+|   |       eovu_texture_normal.png
+|   |       eovu_texture_normal.png.import
+|   |       
+|   +---kks
+|   |       kks.glb
+|   |       kks.glb.import
+|   |       kks_texture_diffuse.png
+|   |       kks_texture_diffuse.png.import
+|   |       kks_texture_metallic-texture_roughness.png
+|   |       kks_texture_metallic-texture_roughness.png.import
+|   |       kks_texture_normal.png
+|   |       kks_texture_normal.png.import
+|   |       
+|   +---lcdmonitor
+|   |       10120_LCD_Computer_Monitor_v01_diffuse.jpg
+|   |       10120_LCD_Computer_Monitor_v01_diffuse.jpg.import
+|   |       10120_LCD_Computer_Monitor_v01_max2011_it2.mtl
+|   |       10120_LCD_Computer_Monitor_v01_max2011_it2.obj
+|   |       10120_LCD_Computer_Monitor_v01_max2011_it2.obj.import
+|   |       
+|   +---l_table
+|   |   |   Rough_Dark-Blue_Texture.material
+|   |   |   Rough_Light_Blue_Texture.material
+|   |   |   scene.bin
+|   |   |   scene.gltf
+|   |   |   scene.gltf.import
+|   |   |   
+|   |   \---textures
+|   |           Rough_Dark-Blue_Texture_baseColor.jpeg
+|   |           Rough_Dark-Blue_Texture_baseColor.jpeg.import
+|   |           Rough_Dark-Blue_Texture_metallicRoughness.png
+|   |           Rough_Dark-Blue_Texture_metallicRoughness.png.import
+|   |           Rough_Dark-Blue_Texture_normal.png
+|   |           Rough_Dark-Blue_Texture_normal.png.import
+|   |           
+|   +---sbc
+|   |       sbc.glb
+|   |       sbc.glb.import
+|   |       sbc_texture_diffuse.png
+|   |       sbc_texture_diffuse.png.import
+|   |       sbc_texture_metallic-texture_roughness.png
+|   |       sbc_texture_metallic-texture_roughness.png.import
+|   |       sbc_texture_normal.png
+|   |       sbc_texture_normal.png.import
+|   |       
+|   +---thing1
+|   |       thing1.glb
+|   |       thing1.glb.import
+|   |       thing1_texture_diffuse.png
+|   |       thing1_texture_diffuse.png.import
+|   |       thing1_texture_metallic-texture_roughness.png
+|   |       thing1_texture_metallic-texture_roughness.png.import
+|   |       thing1_texture_normal.png
+|   |       thing1_texture_normal.png.import
+|   |       
+|   +---thing2
+|   |       thing2.glb
+|   |       thing2.glb.import
+|   |       thing2_texture_diffuse.png
+|   |       thing2_texture_diffuse.png.import
+|   |       thing2_texture_metallic-texture_roughness.png
+|   |       thing2_texture_metallic-texture_roughness.png.import
+|   |       thing2_texture_normal.png
+|   |       thing2_texture_normal.png.import
+|   |       
+|   +---turnstile
+|   |   |   Metal03_col.jpg
+|   |   |   Metal03_col.jpg.import
+|   |   |   Metal09_col.jpg
+|   |   |   Metal09_col.jpg.import
+|   |   |   preview.png
+|   |   |   preview.png.import
+|   |   |   turnstile.mtl
+|   |   |   turnstile.obj
+|   |   |   turnstile.obj.import
+|   |   |   
+|   |   \---textures
+|   |           Metal03_col.jpg
+|   |           Metal03_col.jpg.import
+|   |           Metal03_disp.jpg
+|   |           Metal03_disp.jpg.import
+|   |           Metal03_met.jpg
+|   |           Metal03_met.jpg.import
+|   |           Metal03_nrm.jpg
+|   |           Metal03_nrm.jpg.import
+|   |           Metal03_rgh.jpg
+|   |           Metal03_rgh.jpg.import
+|   |           Metal09_col.jpg
+|   |           Metal09_col.jpg.import
+|   |           Metal09_disp.jpg
+|   |           Metal09_disp.jpg.import
+|   |           Metal09_met.jpg
+|   |           Metal09_met.jpg.import
+|   |           Metal09_nrm.jpg
+|   |           Metal09_nrm.jpg.import
+|   |           Metal09_rgh.jpg
+|   |           Metal09_rgh.jpg.import
+|   |           Metal10_col.jpg
+|   |           Metal10_col.jpg.import
+|   |           Metal10_disp.jpg
+|   |           Metal10_disp.jpg.import
+|   |           Metal10_met.jpg
+|   |           Metal10_met.jpg.import
+|   |           Metal10_nrm.jpg
+|   |           Metal10_nrm.jpg.import
+|   |           Metal10_rgh.jpg
+|   |           Metal10_rgh.jpg.import
+|   |           Metal12_col.jpg
+|   |           Metal12_col.jpg.import
+|   |           Metal12_disp.jpg
+|   |           Metal12_disp.jpg.import
+|   |           Metal12_met.jpg
+|   |           Metal12_met.jpg.import
+|   |           Metal12_nrm.jpg
+|   |           Metal12_nrm.jpg.import
+|   |           Metal12_rgh.jpg
+|   |           Metal12_rgh.jpg.import
+|   |           Smear04_col.jpg
+|   |           Smear04_col.jpg.import
+|   |           Smear04_nrm.jpg
+|   |           Smear04_nrm.jpg.import
+|   |           Smear04_rgh.jpg
+|   |           Smear04_rgh.jpg.import
+|   |           
+|   \---uppipch
+|           uppipch.glb
+|           uppipch.glb.import
+|           uppipch_0.webp
+|           uppipch_0.webp.import
+|           uppipch_1.webp
+|           uppipch_1.webp.import
+|           
++---scenes
+|   |   dormakaba_kerberos_tripod Barriers_TPB-E01.rfa
+|   |   p100.tscn
+|   |   p200.tscn
+|   |   p300.tscn
+|   |   p_200.gdshader
+|   |   p_200.gdshader.uid
+|   |   u100.tscn
+|   |   u200.tscn
+|   |   u300.tscn
+|   |   u400.tscn
+|   |   
+|   +---entities
+|   |       CameraController.tscn
+|   |       camera_controller.gd
+|   |       camera_controller.gd.uid
+|   |       interactive_objects_manager.gd
+|   |       interactive_objects_manager.gd.uid
+|   |       interactive_objects_manager.tscn
+|   |       PanoramaController.tscn
+|   |       panorama_controller.gd
+|   |       panorama_controller.gd.uid
+|   |       player.gd
+|   |       player.gd.uid
+|   |       player.tscn
+|   |       UIController.tscn
+|   |       ui_controller.gd
+|   |       ui_controller.gd.uid
+|   |       
+|   \---objects
+|           arrow_pointer.gd
+|           arrow_pointer.gd.uid
+|           arrow_pointer.tscn
+|           class_name.gd
+|           class_name.gd.uid
+|           class_name.tscn
+|           floor_door.gd
+|           floor_door.gd.uid
+|           floor_door.tscn
+|           interactable_door.gd
+|           interactable_door.gd.uid
+|           interactable_door.tscn
+|           interactable_object3d.tscn
+|           interactable_object_3d.gd
+|           interactable_object_3d.gd.uid
+|           interactable_zone_scene.gd
+|           interactable_zone_scene.gd.uid
+|           interactable_zone_scene.tscn
+|           
++---textures
+|   +---3d
+|   |   |   door1.webp
+|   |   |   door1.webp.import
+|   |   |   door10.webp
+|   |   |   door10.webp.import
+|   |   |   door11.webp
+|   |   |   door11.webp.import
+|   |   |   door12.webp
+|   |   |   door12.webp.import
+|   |   |   door13.webp
+|   |   |   door13.webp.import
+|   |   |   door14.webp
+|   |   |   door14.webp.import
+|   |   |   door15.webp
+|   |   |   door15.webp.import
+|   |   |   door16.webp
+|   |   |   door16.webp.import
+|   |   |   door17.webp
+|   |   |   door17.webp.import
+|   |   |   door18.webp
+|   |   |   door18.webp.import
+|   |   |   door19.webp
+|   |   |   door19.webp.import
+|   |   |   door2.webp
+|   |   |   door2.webp.import
+|   |   |   door20.webp
+|   |   |   door20.webp.import
+|   |   |   door21.webp
+|   |   |   door21.webp.import
+|   |   |   door22.webp
+|   |   |   door22.webp.import
+|   |   |   door23.webp
+|   |   |   door23.webp.import
+|   |   |   door24.webp
+|   |   |   door24.webp.import
+|   |   |   door25.webp
+|   |   |   door25.webp.import
+|   |   |   door3.webp
+|   |   |   door3.webp.import
+|   |   |   door4.webp
+|   |   |   door4.webp.import
+|   |   |   door5.webp
+|   |   |   door5.webp.import
+|   |   |   door6.webp
+|   |   |   door6.webp.import
+|   |   |   door7.webp
+|   |   |   door7.webp.import
+|   |   |   door8.webp
+|   |   |   door8.webp.import
+|   |   |   door9.webp
+|   |   |   door9.webp.import
+|   |   |   door_floor1.webp
+|   |   |   door_floor1.webp.import
+|   |   |   door_floor2.webp
+|   |   |   door_floor2.webp.import
+|   |   |   door_floor3.webp
+|   |   |   door_floor3.webp.import
+|   |   |   door_floor7.webp
+|   |   |   door_floor7.webp.import
+|   |   |   door_sp1.webp
+|   |   |   door_sp1.webp.import
+|   |   |   door_sp2.webp
+|   |   |   door_sp2.webp.import
+|   |   |   door_sp3.webp
+|   |   |   door_sp3.webp.import
+|   |   |   door_sp4.webp
+|   |   |   door_sp4.webp.import
+|   |   |   door_sp5.webp
+|   |   |   door_sp5.webp.import
+|   |   |   door_sp6.webp
+|   |   |   door_sp6.webp.import
+|   |   |   door_sp7.webp
+|   |   |   door_sp7.webp.import
+|   |   |   door_sp8.webp
+|   |   |   door_sp8.webp.import
+|   |   |   door_sp9.webp
+|   |   |   door_sp9.webp.import
+|   |   |   parallax_sky.webp
+|   |   |   parallax_sky.webp.import
+|   |   |   wslogo.webp
+|   |   |   wslogo.webp.import
+|   |   |   
+|   |   +---classic_wood_parquet_1-4K
+|   |   |       4K-Classic Parquet_1_baseColor.jpg
+|   |   |       4K-Classic Parquet_1_baseColor.jpg.import
+|   |   |       4K-Classic Parquet_1_normal.jpg
+|   |   |       4K-Classic Parquet_1_normal.jpg.import
+|   |   |       4K-Classic Parquet_1_roughness.jpg
+|   |   |       4K-Classic Parquet_1_roughness.jpg.import
+|   |   |       4K-Classic Parquet_1_specularLevel.jpg
+|   |   |       4K-Classic Parquet_1_specularLevel.jpg.import
+|   |   |       
+|   |   +---Concrete024_4K-JPG
+|   |   |       Concrete024_4K_Color.jpg
+|   |   |       Concrete024_4K_Color.jpg.import
+|   |   |       Concrete024_4K_Displacement.jpg
+|   |   |       Concrete024_4K_Displacement.jpg.import
+|   |   |       Concrete024_4K_NormalDX.jpg
+|   |   |       Concrete024_4K_NormalDX.jpg.import
+|   |   |       Concrete024_4K_NormalGL.jpg
+|   |   |       Concrete024_4K_NormalGL.jpg.import
+|   |   |       Concrete024_4K_Roughness.jpg
+|   |   |       Concrete024_4K_Roughness.jpg.import
+|   |   |       
+|   |   +---gravel_concrete_03_4k
+|   |   |       gravel_concrete_03_diff_4k.jpg
+|   |   |       gravel_concrete_03_diff_4k.jpg.import
+|   |   |       gravel_concrete_03_nor_dx_4k.jpg
+|   |   |       gravel_concrete_03_nor_dx_4k.jpg.import
+|   |   |       
+|   |   +---metal_0071_1k_HD5XFx
+|   |   |       metal_0071_color_1k.jpg
+|   |   |       metal_0071_color_1k.jpg.import
+|   |   |       metal_0071_metallic_1k.jpg
+|   |   |       metal_0071_metallic_1k.jpg.import
+|   |   |       metal_0071_normal_directx_1k.png
+|   |   |       metal_0071_normal_directx_1k.png.import
+|   |   |       
+|   |   +---OfficeCeiling001_1K-PNG
+|   |   |       OfficeCeiling001_1K-PNG_Color.png
+|   |   |       OfficeCeiling001_1K-PNG_Color.png.import
+|   |   |       OfficeCeiling001_1K-PNG_NormalDX.png
+|   |   |       OfficeCeiling001_1K-PNG_NormalDX.png.import
+|   |   |       
+|   |   +---Plaster001_4K-JPG
+|   |   |       Plaster001_4K-JPG_Color.jpg
+|   |   |       Plaster001_4K-JPG_Color.jpg.import
+|   |   |       Plaster001_4K-JPG_NormalDX.jpg
+|   |   |       Plaster001_4K-JPG_NormalDX.jpg.import
+|   |   |       
+|   |   +---Poliigon_TilesCeramicWhite_6956
+|   |   |       Poliigon_TilesCeramicWhite_6956_BaseColor.jpg
+|   |   |       Poliigon_TilesCeramicWhite_6956_BaseColor.jpg.import
+|   |   |       Poliigon_TilesCeramicWhite_6956_Normal.png
+|   |   |       Poliigon_TilesCeramicWhite_6956_Normal.png.import
+|   |   |       
+|   |   +---tile_floor
+|   |   |       Tile 10_BaseColor.jpg
+|   |   |       Tile 10_BaseColor.jpg.import
+|   |   |       Tile 10_Metallic.jpg
+|   |   |       Tile 10_Metallic.jpg.import
+|   |   |       Tile 10_Normal.jpg
+|   |   |       Tile 10_Normal.jpg.import
+|   |   |       
+|   |   \---wood_floor_4k
+|   |           wood_floor_diff_4k.jpg
+|   |           wood_floor_diff_4k.jpg.import
+|   |           wood_floor_nor_dx_4k.jpg
+|   |           wood_floor_nor_dx_4k.jpg.import
+|   |           
+|   +---akt_zal
+|   |       akt_zal_1.webp
+|   |       akt_zal_1.webp.import
+|   |       akt_zal_2.webp
+|   |       akt_zal_2.webp.import
+|   |       akt_zal_3.webp
+|   |       akt_zal_3.webp.import
+|   |       
+|   +---class_names
+|   |       competency_center.webp
+|   |       competency_center.webp.import
+|   |       electronics.webp
+|   |       electronics.webp.import
+|   |       female_t.webp
+|   |       female_t.webp.import
+|   |       it_center.webp
+|   |       it_center.webp.import
+|   |       kbbzhzhomb.webp
+|   |       kbbzhzhomb.webp.import
+|   |       maicl.webp
+|   |       maicl.webp.import
+|   |       male_t.webp
+|   |       male_t.webp.import
+|   |       mrl.webp
+|   |       mrl.webp.import
+|   |       nccer.webp
+|   |       nccer.webp.import
+|   |       p101.webp
+|   |       p101.webp.import
+|   |       p102.webp
+|   |       p102.webp.import
+|   |       p103.webp
+|   |       p103.webp.import
+|   |       p103a.webp
+|   |       p103a.webp.import
+|   |       p103b.webp
+|   |       p103b.webp.import
+|   |       p103c.webp
+|   |       p103c.webp.import
+|   |       p104.webp
+|   |       p104.webp.import
+|   |       p105.webp
+|   |       p105.webp.import
+|   |       p106.webp
+|   |       p106.webp.import
+|   |       p107.webp
+|   |       p107.webp.import
+|   |       p108.webp
+|   |       p108.webp.import
+|   |       p109.webp
+|   |       p109.webp.import
+|   |       p110.webp
+|   |       p110.webp.import
+|   |       p111.webp
+|   |       p111.webp.import
+|   |       p201.webp
+|   |       p201.webp.import
+|   |       p202.webp
+|   |       p202.webp.import
+|   |       p204.webp
+|   |       p204.webp.import
+|   |       p207.webp
+|   |       p207.webp.import
+|   |       p208.webp
+|   |       p208.webp.import
+|   |       p209.webp
+|   |       p209.webp.import
+|   |       p210.webp
+|   |       p210.webp.import
+|   |       p211.webp
+|   |       p211.webp.import
+|   |       p212.webp
+|   |       p212.webp.import
+|   |       p213.webp
+|   |       p213.webp.import
+|   |       p214.webp
+|   |       p214.webp.import
+|   |       p215.webp
+|   |       p215.webp.import
+|   |       p301.webp
+|   |       p301.webp.import
+|   |       p302.webp
+|   |       p302.webp.import
+|   |       p303.webp
+|   |       p303.webp.import
+|   |       p304.webp
+|   |       p304.webp.import
+|   |       p305.webp
+|   |       p305.webp.import
+|   |       p306.webp
+|   |       p306.webp.import
+|   |       p307.webp
+|   |       p307.webp.import
+|   |       p308.webp
+|   |       p308.webp.import
+|   |       p309.webp
+|   |       p309.webp.import
+|   |       p310.webp
+|   |       p310.webp.import
+|   |       p311.webp
+|   |       p311.webp.import
+|   |       p312.webp
+|   |       p312.webp.import
+|   |       p313.webp
+|   |       p313.webp.import
+|   |       p314.webp
+|   |       p314.webp.import
+|   |       slyzhebn.webp
+|   |       slyzhebn.webp.import
+|   |       u201.webp
+|   |       u201.webp.import
+|   |       u202.webp
+|   |       u202.webp.import
+|   |       u203.webp
+|   |       u203.webp.import
+|   |       u204.webp
+|   |       u204.webp.import
+|   |       u205.webp
+|   |       u205.webp.import
+|   |       u206.webp
+|   |       u206.webp.import
+|   |       u207.webp
+|   |       u207.webp.import
+|   |       u208.webp
+|   |       u208.webp.import
+|   |       u209.webp
+|   |       u209.webp.import
+|   |       u210.webp
+|   |       u210.webp.import
+|   |       u211.webp
+|   |       u211.webp.import
+|   |       u301.webp
+|   |       u301.webp.import
+|   |       u301a.webp
+|   |       u301a.webp.import
+|   |       u302.webp
+|   |       u302.webp.import
+|   |       u303.webp
+|   |       u303.webp.import
+|   |       u304.webp
+|   |       u304.webp.import
+|   |       u305.webp
+|   |       u305.webp.import
+|   |       u306.webp
+|   |       u306.webp.import
+|   |       u307.webp
+|   |       u307.webp.import
+|   |       u308.webp
+|   |       u308.webp.import
+|   |       u309.webp
+|   |       u309.webp.import
+|   |       u310.webp
+|   |       u310.webp.import
+|   |       u401.webp
+|   |       u401.webp.import
+|   |       u401a1.webp
+|   |       u401a1.webp.import
+|   |       u401a2.webp
+|   |       u401a2.webp.import
+|   |       u402.webp
+|   |       u402.webp.import
+|   |       u403.webp
+|   |       u403.webp.import
+|   |       u404.webp
+|   |       u404.webp.import
+|   |       u405.webp
+|   |       u405.webp.import
+|   |       u406.webp
+|   |       u406.webp.import
+|   |       u407.webp
+|   |       u407.webp.import
+|   |       u408.webp
+|   |       u408.webp.import
+|   |       u409.webp
+|   |       u409.webp.import
+|   |       асхана.webp
+|   |       асхана.webp.import
+|   |       бухгалтерия.webp
+|   |       бухгалтерия.webp.import
+|   |       дкб.webp
+|   |       дкб.webp.import
+|   |       дроны.webp
+|   |       дроны.webp.import
+|   |       кiтапхана.webp
+|   |       кiтапхана.webp.import
+|   |       кб.webp
+|   |       кб.webp.import
+|   |       муражай.webp
+|   |       муражай.webp.import
+|   |       об.webp
+|   |       об.webp.import
+|   |       
+|   +---debug
+|   |   |   arrow.fbx
+|   |   |   arrow.fbx.import
+|   |   |   bg.webp
+|   |   |   bg.webp.import
+|   |   |   fullscreen.webp
+|   |   |   fullscreen.webp.import
+|   |   |   IMG_4730.JPG
+|   |   |   IMG_4730.JPG.import
+|   |   |   IMG_4737.JPG
+|   |   |   IMG_4737.JPG.import
+|   |   |   lang_icon.webp
+|   |   |   lang_icon.webp.import
+|   |   |   logo.png
+|   |   |   logo.png.import
+|   |   |   Untitled-1.webp
+|   |   |   Untitled-1.webp.import
+|   |   |   
+|   |   \---loading_anim
+|   |           1.png
+|   |           1.png.import
+|   |           10.png
+|   |           10.png.import
+|   |           11.png
+|   |           11.png.import
+|   |           12.png
+|   |           12.png.import
+|   |           13.png
+|   |           13.png.import
+|   |           14.png
+|   |           14.png.import
+|   |           15.png
+|   |           15.png.import
+|   |           16.png
+|   |           16.png.import
+|   |           17.png
+|   |           17.png.import
+|   |           18.png
+|   |           18.png.import
+|   |           19.png
+|   |           19.png.import
+|   |           2.png
+|   |           2.png.import
+|   |           20.png
+|   |           20.png.import
+|   |           21.png
+|   |           21.png.import
+|   |           22.png
+|   |           22.png.import
+|   |           23.png
+|   |           23.png.import
+|   |           24.png
+|   |           24.png.import
+|   |           25.png
+|   |           25.png.import
+|   |           26.png
+|   |           26.png.import
+|   |           27.png
+|   |           27.png.import
+|   |           28.png
+|   |           28.png.import
+|   |           29.png
+|   |           29.png.import
+|   |           3.png
+|   |           3.png.import
+|   |           30.png
+|   |           30.png.import
+|   |           4.png
+|   |           4.png.import
+|   |           5.png
+|   |           5.png.import
+|   |           6.png
+|   |           6.png.import
+|   |           7.png
+|   |           7.png.import
+|   |           8.png
+|   |           8.png.import
+|   |           9.png
+|   |           9.png.import
+|   |           
+|   +---konf_zal
+|   |       konf_zal_1_1.webp
+|   |       konf_zal_1_1.webp.import
+|   |       konf_zal_2_2.webp
+|   |       konf_zal_2_2.webp.import
+|   |       
+|   +---museum
+|   |       museum.webp
+|   |       museum.webp.import
+|   |       
+|   +---object_icons
+|   |       object_10.webp
+|   |       object_10.webp.import
+|   |       object_11.webp
+|   |       object_11.webp.import
+|   |       object_12.webp
+|   |       object_12.webp.import
+|   |       object_13.webp
+|   |       object_13.webp.import
+|   |       object_14.webp
+|   |       object_14.webp.import
+|   |       object_15.webp
+|   |       object_15.webp.import
+|   |       object_16.webp
+|   |       object_16.webp.import
+|   |       object_17.webp
+|   |       object_17.webp.import
+|   |       object_18.webp
+|   |       object_18.webp.import
+|   |       object_19.webp
+|   |       object_19.webp.import
+|   |       object_2.webp
+|   |       object_2.webp.import
+|   |       object_20.webp
+|   |       object_20.webp.import
+|   |       object_21.webp
+|   |       object_21.webp.import
+|   |       object_23.webp
+|   |       object_23.webp.import
+|   |       object_24.webp
+|   |       object_24.webp.import
+|   |       object_25.webp
+|   |       object_25.webp.import
+|   |       object_26.webp
+|   |       object_26.webp.import
+|   |       object_27.webp
+|   |       object_27.webp.import
+|   |       object_28.webp
+|   |       object_28.webp.import
+|   |       object_29.webp
+|   |       object_29.webp.import
+|   |       object_3.webp
+|   |       object_3.webp.import
+|   |       object_30.webp
+|   |       object_30.webp.import
+|   |       object_31.webp
+|   |       object_31.webp.import
+|   |       object_32.webp
+|   |       object_32.webp.import
+|   |       object_33.webp
+|   |       object_33.webp.import
+|   |       object_34.webp
+|   |       object_34.webp.import
+|   |       object_35.webp
+|   |       object_35.webp.import
+|   |       object_36.webp
+|   |       object_36.webp.import
+|   |       object_37.webp
+|   |       object_37.webp.import
+|   |       object_38.webp
+|   |       object_38.webp.import
+|   |       object_39.webp
+|   |       object_39.webp.import
+|   |       object_4.webp
+|   |       object_4.webp.import
+|   |       object_40.webp
+|   |       object_40.webp.import
+|   |       object_41.webp
+|   |       object_41.webp.import
+|   |       object_42.webp
+|   |       object_42.webp.import
+|   |       object_43.webp
+|   |       object_43.webp.import
+|   |       object_44.webp
+|   |       object_44.webp.import
+|   |       object_45.webp
+|   |       object_45.webp.import
+|   |       object_46.webp
+|   |       object_46.webp.import
+|   |       object_47.webp
+|   |       object_47.webp.import
+|   |       object_5.webp
+|   |       object_5.webp.import
+|   |       object_6.webp
+|   |       object_6.webp.import
+|   |       object_7.webp
+|   |       object_7.webp.import
+|   |       object_8.webp
+|   |       object_8.webp.import
+|   |       object_9.webp
+|   |       object_9.webp.import
+|   |       
+|   +---p101
+|   |       p101_1.webp
+|   |       p101_1.webp.import
+|   |       
+|   +---p102
+|   |       p102_1.webp
+|   |       p102_1.webp.import
+|   |       p102_2.webp
+|   |       p102_2.webp.import
+|   |       
+|   +---p103a
+|   |       p103a_1.webp
+|   |       p103a_1.webp.import
+|   |       
+|   +---p108
+|   |       p108_1.webp
+|   |       p108_1.webp.import
+|   |       
+|   +---p204
+|   |       p204_1.webp
+|   |       p204_1.webp.import
+|   |       
+|   +---p205
+|   |       p205_1.webp
+|   |       p205_1.webp.import
+|   |       
+|   +---p207
+|   |       p207_1.webp
+|   |       p207_1.webp.import
+|   |       p207_2.webp
+|   |       p207_2.webp.import
+|   |       
+|   +---p208
+|   |       p208_1.webp
+|   |       p208_1.webp.import
+|   |       p208_2.webp
+|   |       p208_2.webp.import
+|   |       
+|   +---p209
+|   |       p209_1.webp
+|   |       p209_1.webp.import
+|   |       
+|   +---p210
+|   |       p210_1.webp
+|   |       p210_1.webp.import
+|   |       p210_2.webp
+|   |       p210_2.webp.import
+|   |       
+|   +---p212
+|   |       p212_2.webp
+|   |       p212_2.webp.import
+|   |       
+|   +---p213
+|   |       p213_1.webp
+|   |       p213_1.webp.import
+|   |       
+|   +---p214
+|   |       p214_1.webp
+|   |       p214_1.webp.import
+|   |       p214_2.webp
+|   |       p214_2.webp.import
+|   |       
+|   +---p301
+|   |       p301_1.webp
+|   |       p301_1.webp.import
+|   |       
+|   +---p302
+|   |       p302_1.webp
+|   |       p302_1.webp.import
+|   |       
+|   +---p303
+|   |       p303_1.webp
+|   |       p303_1.webp.import
+|   |       
+|   +---p304
+|   |       p304_1.webp
+|   |       p304_1.webp.import
+|   |       
+|   +---p305
+|   |       p305_1.webp
+|   |       p305_1.webp.import
+|   |       
+|   +---p307
+|   |       p307_1.webp
+|   |       p307_1.webp.import
+|   |       
+|   +---p309
+|   |       p309_1.webp
+|   |       p309_1.webp.import
+|   |       
+|   +---p311
+|   |       p311_1.webp
+|   |       p311_1.webp.import
+|   |       
+|   +---p312
+|   |       p312_1.webp
+|   |       p312_1.webp.import
+|   |       
+|   +---p314
+|   |       p314_1.webp
+|   |       p314_1.webp.import
+|   |       
+|   +---posters
+|   |       poster_ (1).webp
+|   |       poster_ (1).webp.import
+|   |       poster_ (10).webp
+|   |       poster_ (10).webp.import
+|   |       poster_ (11).webp
+|   |       poster_ (11).webp.import
+|   |       poster_ (12).webp
+|   |       poster_ (12).webp.import
+|   |       poster_ (13).webp
+|   |       poster_ (13).webp.import
+|   |       poster_ (14).webp
+|   |       poster_ (14).webp.import
+|   |       poster_ (15).webp
+|   |       poster_ (15).webp.import
+|   |       poster_ (16).webp
+|   |       poster_ (16).webp.import
+|   |       poster_ (17).webp
+|   |       poster_ (17).webp.import
+|   |       poster_ (18).webp
+|   |       poster_ (18).webp.import
+|   |       poster_ (2).webp
+|   |       poster_ (2).webp.import
+|   |       poster_ (20).webp
+|   |       poster_ (20).webp.import
+|   |       poster_ (21).webp
+|   |       poster_ (21).webp.import
+|   |       poster_ (22).webp
+|   |       poster_ (22).webp.import
+|   |       poster_ (23).webp
+|   |       poster_ (23).webp.import
+|   |       poster_ (3).webp
+|   |       poster_ (3).webp.import
+|   |       poster_ (40).webp
+|   |       poster_ (40).webp.import
+|   |       poster_ (41).webp
+|   |       poster_ (41).webp.import
+|   |       poster_ (42).webp
+|   |       poster_ (42).webp.import
+|   |       poster_ (43).webp
+|   |       poster_ (43).webp.import
+|   |       poster_ (6).webp
+|   |       poster_ (6).webp.import
+|   |       poster_ (9).webp
+|   |       poster_ (9).webp.import
+|   |       
+|   +---u201
+|   |       u201_1.webp
+|   |       u201_1.webp.import
+|   |       
+|   +---u202
+|   |       u202_1.webp
+|   |       u202_1.webp.import
+|   |       
+|   +---u208
+|   |       u208_1.webp
+|   |       u208_1.webp.import
+|   |       u208_2.webp
+|   |       u208_2.webp.import
+|   |       
+|   +---u210
+|   |       u210_1.webp
+|   |       u210_1.webp.import
+|   |       
+|   +---u301
+|   |       u301_1.webp
+|   |       u301_1.webp.import
+|   |       
+|   +---u302
+|   |       u302_1.webp
+|   |       u302_1.webp.import
+|   |       
+|   +---u303
+|   |       u303_1.webp
+|   |       u303_1.webp.import
+|   |       
+|   +---u304
+|   |       u304_1.webp
+|   |       u304_1.webp.import
+|   |       
+|   +---u305
+|   |       u305_1.webp
+|   |       u305_1.webp.import
+|   |       
+|   +---u306
+|   |       u306_1.webp
+|   |       u306_1.webp.import
+|   |       
+|   +---u308
+|   |       u308_1.webp
+|   |       u308_1.webp.import
+|   |       
+|   +---u309
+|   |       u309_1.webp
+|   |       u309_1.webp.import
+|   |       
+|   +---u401
+|   |       u401_1.webp
+|   |       u401_1.webp.import
+|   |       
+|   +---u402
+|   |       u402_1.webp
+|   |       u402_1.webp.import
+|   |       
+|   +---u403
+|   |       u403_1.webp
+|   |       u403_1.webp.import
+|   |       
+|   +---u404
+|   |       u404_1.webp
+|   |       u404_1.webp.import
+|   |       
+|   +---u405
+|   |       u405_1.webp
+|   |       u405_1.webp.import
+|   |       
+|   +---u407
+|   |       u407_1.webp
+|   |       u407_1.webp.import
+|   |       
+|   \---u408
+|           u408_1.webp
+|           u408_1.webp.import
+|           
+\---UI
+    |   arrow.tscn
+    |   entrance_marker.gd
+    |   entrance_marker.gd.uid
+    |   entrance_marker.tscn
+    |   floor_select_panel.gd
+    |   floor_select_panel.gd.uid
+    |   floor_select_panel.tscn
+    |   info_panel.gd
+    |   info_panel.gd.uid
+    |   info_panel.tscn
+    |   loading.tscn
+    |   main_menu.gd
+    |   main_menu.gd.uid
+    |   main_menu.tscn
+    |   menu.gd
+    |   menu.gd.uid
+    |   menu.tscn
+    |   
+    \---models
+            arrow.fbx
+            arrow.fbx.import
+            green_arrow.obj
+            green_arrow.obj.import
+            

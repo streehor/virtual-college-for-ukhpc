@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://dagi35mc151d6"]
+
+[ext_resource type="Script" uid="uid://c6to1n0nltlu2" path="res://scenes/entities/panorama_controller.gd" id="1_kh4fv"]
+
+[node name="PanoramaController" type="Node" unique_id=824156404]
+script = ExtResource("1_kh4fv")

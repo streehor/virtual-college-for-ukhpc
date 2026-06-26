@@ -1,0 +1,15 @@
+[gd_resource type="ORMMaterial3D" format=3 uid="uid://0ak1aqw44wrv"]
+
+[ext_resource type="Texture2D" uid="uid://begftg7uc8hmx" path="res://textures/3d/Poliigon_TilesCeramicWhite_6956/Poliigon_TilesCeramicWhite_6956_BaseColor.jpg" id="1_qoupl"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qoupl"]
+load_path = "res://.godot/imported/Poliigon_TilesCeramicWhite_6956_Normal.png-1b31b27a24cbbc3929b7aae2750df420.s3tc.ctex"
+
+[resource]
+albedo_texture = ExtResource("1_qoupl")
+normal_enabled = true
+normal_scale = 2.08
+normal_texture = SubResource("CompressedTexture2D_qoupl")
+uv1_scale = Vector3(0.341, 0.341, 0.341)
+uv1_offset = Vector3(0.073, 0, 0)
+uv1_triplanar = true

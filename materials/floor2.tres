@@ -1,0 +1,13 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://wuuo5pnlsqq3"]
+
+[ext_resource type="Texture2D" uid="uid://d04lovqo62pqn" path="res://textures/3d/wood_floor_4k/wood_floor_diff_4k.jpg" id="1_vf7jm"]
+[ext_resource type="Texture2D" uid="uid://21pidldbgwby" path="res://textures/3d/wood_floor_4k/wood_floor_nor_dx_4k.jpg" id="2_3rwwx"]
+
+[resource]
+albedo_color = Color(0.91, 0.91, 0.91, 1)
+albedo_texture = ExtResource("1_vf7jm")
+normal_enabled = true
+normal_scale = 0.03
+normal_texture = ExtResource("2_3rwwx")
+uv1_scale = Vector3(0.765, 0.765, 0.765)
+uv1_triplanar = true

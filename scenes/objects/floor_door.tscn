@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bo5gsiweleqwo"]
+
+[ext_resource type="Script" uid="uid://cg3jv3vctqige" path="res://scenes/objects/floor_door.gd" id="1_t5rpj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lieoe"]
+albedo_color = Color(0.6695958, 0.27674398, 0.18162769, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_t5rpj"]
+material = SubResource("StandardMaterial3D_lieoe")
+size = Vector3(2.59, 3.015, 0.06)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_lieoe"]
+size = Vector3(2.59, 3.015, 0.06)
+
+[node name="floor_door" type="Node3D" unique_id=1044059359 groups=["door"]]
+script = ExtResource("1_t5rpj")
+
+[node name="model" type="MeshInstance3D" parent="." unique_id=1443860188]
+mesh = SubResource("BoxMesh_t5rpj")
+
+[node name="door_collider" type="StaticBody3D" parent="model" unique_id=2113135988]
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="model/door_collider" unique_id=659462326]
+shape = SubResource("BoxShape3D_lieoe")

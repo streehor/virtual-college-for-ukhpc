@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bsb0ekdhc14k4"]
+
+[ext_resource type="Script" uid="uid://neey3dxgh11x" path="res://UI/entrance_marker.gd" id="1_fjbsy"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_1v4uo"]
+top_radius = 0.16
+bottom_radius = 0.0
+height = 0.6
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_36gtv"]
+shading_mode = 0
+albedo_color = Color(1, 1, 0, 1)
+
+[node name="EntranceMarker" type="Node3D" unique_id=1416995298]
+script = ExtResource("1_fjbsy")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=18007902]
+mesh = SubResource("CylinderMesh_1v4uo")
+surface_material_override/0 = SubResource("StandardMaterial3D_36gtv")

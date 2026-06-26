@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://c8eb0bk8wliee"]
+
+[ext_resource type="Script" uid="uid://becipgg3k371o" path="res://scenes/entities/interactive_objects_manager.gd" id="1_erfox"]
+
+[node name="interactive_objects_manager" type="Node" unique_id=1761552100]
+script = ExtResource("1_erfox")
